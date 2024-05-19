@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.Container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #88d4da;
+}
+.Header{
+    display: flex;
+    width: 84vw;
+    height: 192px;
+    flex-direction: column;
+}
+.Navbar{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.Lista{
+    margin: 10px 10px;
+    li{
+        height: 20px;
+        margin-top: 15px;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+.Content{
+    display: flex;
+    width: 84vw;
+    height: auto;
+}
+.Contato{
+    width: 80vw;
+    display: flex;
+    margin: 20px auto 0;
+    text-align: center;
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #050505;
+        font-size: 1.5rem;
+        padding: 0 20px;
+        margin-bottom: 10px;
+    }
+    p{
+        padding: 5px 30px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        color: #0b0c0c;
+        font-weight: 400;
+    }
+}
+.Informacoes, .Localizacao{
+    width: 50%;
+    box-sizing: border-box;
+}
+.Localizacao{
+    h1{
+        margin-bottom: 20px;
+    }
+}
+
+.Formulario {
+    width: 400px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+label {
+    color: #04080a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+input, textarea{
+    width: 390px;
+}
+input, textarea{
+    outline: none;
+}
+button {
+    width: 100px;
+    height: 35px;
+    margin: 10px 0;
+    background-color: #3cff00;
+    color: #0c0909;
+    border: none;
+    border-radius: 5px;
+}
+
+.Botoes {
+    display: flex;
+    justify-content: space-between; 
+}
+.limpar{
+    background-color: #d0d30d;
+    margin-right: 10px;
+}
+
+.Footer{
+    width: 84vw;
+    height: auto;
+}
+.FooterDescricao{
+    width: 60vw;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    p{
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        color: #181a1b;
+    }
+    a{
+        margin: 0 20px;
+        text-decoration: none;
+        color: #050101;
+    }
+}
